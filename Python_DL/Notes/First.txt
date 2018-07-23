@@ -1,0 +1,13 @@
+Caffe - C+=, Python
+
+Keras : Written in python : Theano , Tensorflow as backend
+
+Lasagna : Multi layered
+
+
+
+---- Steps 
+
+Get correct theano , keras versions
+
+Change the json file :: C:\Users\prateek.sri\.keras , to use theano

@@ -1,0 +1,172 @@
+/* public schedule styles */
+div.en_session { margin-top: 2rem; margin-bottom: 2rem; font-size: 1.5rem; overflow: hidden; }
+div.en_session_highlight { background-color: #ffffcc; border: 1px solid #ffcc99; margin-left: -0.5rem;  margin-right: -0.5rem; padding: 0.4rem; }
+div.en_session_time { font-size: 1.2rem; }
+div.en_session_title {font-weight: bold; margin-bottom: 0.25rem; }
+div.en_session_roominfo, div.en_session_downloads { font-size: 1.2rem; }
+div.en_session_downloads li {margin-top: 0; font-size: 1rem; }
+div.en_session_downloads ul {padding: 0; margin: 0; list-style: none; }
+span.en_filetype { font-size: 1rem; }
+.tags { margin-bottom: 0; }
+.audience { font-size: .8em; padding-bottom: 5px; }
+div.en_session_speakers {font-style: italic; font-size: 1.2rem; max-width: 860px; }
+div.en_session_description { margin-top: 0.5rem; margin-left: 1rem; overflow: auto; }
+.ical-offerings {  font-size: 1.4rem; color: #555; text-align: center; width: 25rem; margin-top: 1rem; }
+.ical-offerings a {color: #555; text-decoration: underline; }
+.dash_hr { border-top: 1px dashed #777; display: block; margin: 0; clear: left; }
+div.en_session_description { line-height: 2.3rem; font-size: 1.5rem; margin-left: 0; }
+.en_session_description p { margin: 1rem 0; }
+#en_schedule_stype div.en_session_description p:first-child {margin: 0; }
+#en_main .en_session h1 { margin: 2rem 2rem 0.8rem 0; }
+div.moderated_by, div.panelists {font-weight: 700; font-style: normal; }
+div.en_grade_average { font-size: 1.2rem; padding: 0 0 1rem; margin: 0; }
+.en_session .en_article_share, .en_session .en_detail_tools {margin-left: 0; padding-bottom: 0; }
+.en_session .en_detail_tools {float: none; margin-top: 0; width: auto; }
+.en_session .en_article_share {clear: right; float: none; margin-right: 1rem; margin-top: 1rem; width: auto; }
+.vcard .en_article_share:after {display: block; clear: both; height: 0; visibility: hidden; content: "."; }
+.vcard h1 {margin-bottom: 0; line-height: 3rem; }
+.vcard .en_article_share { margin-left: 2rem; }
+#en_schedule_speaker .en_article_share { height: 2.2rem; }
+#en_schedule_speaker .en_article_share div {float: left; }
+.en_session .en_detail_tools > br {display: none; }
+div.en_psched_add_label { font-size: 1.2rem; }
+div.en_session_psched {float: right; }
+a.en_eval_link[title="Rate This Session"] { padding: 0.4rem 0.8rem; border-radius: 4px; background: #f5c517; background: linear-gradient(to bottom, #f7d145 0, #f5c517 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7d145', endColorstr='#f5c517', GradientType=0); color: #222; text-decoration: none; display: inline-block; margin: 0.3rem 0 1rem; font-weight: 700; }
+a:hover.en_eval_link {text-decoration: none; }
+.label {background-color: #bbb;  padding: 0.2rem 0.4rem; font-size: 1.1rem; font-weight: 700; color: #fff; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
+.label-important {background-color: #aaa; margin-right: 0.4rem; }
+#en_main .en_user_photo {float: right; padding-right: 1.5rem; padding-top: 1rem; }
+div.en_user_photo .speaker { height: 1.8rem; text-align: center; text-transform: uppercase; background-color: #333;  padding-top: 0.2rem;  padding-bottom: 0.2rem; }
+div.en_user_photo .speaker a {color: #fff; }
+h1.fn .info { font-size: 1.7rem; color: #333; }
+h2.fn { margin-bottom: 0.5rem; margin-top: 0; }
+/* for listing schedule dates above full listing */
+#en_grid_dates { margin-top: 0.5rem;  margin-bottom: 0.5rem; }
+#en_grid_dates ul {list-style: none; padding-left: 0; margin-left: 0; }
+#en_grid_dates ul li {display: inline; margin: 0.2rem; border: 1px solid black; margin-left: 0; padding: 4px; padding: 0.4rem; background-color: white; }
+#en_grid_dates ul li:first-child {margin-left: 0; }
+#en_grid_dates ul li.active {background-color: black; }
+#en_grid_dates ul li.active a {color: white; }
+#en_grid_dates a {text-decoration: none; color: black; padding-bottom: 0.2rem; }
+div.en_schedule_time {border-bottom: 1px dotted grey;  margin-bottom: 1rem; }
+div.en_schedule_day { margin-bottom: 2rem; }
+div.en_schedule_day h2 {text-align: center; padding: 1rem 0; margin-bottom: 1rem; border-top: 1px solid grey; border-bottom: 1px solid grey; }
+div.en_schedule_day > h2 > a:hover, div.en_schedule_time > h3 > a:hover { text-decoration: none; }
+/* end styles for full listing */
+/* ratings and reviews */
+div.en_grade_select { height: 3.8rem; }
+input.auto-submit-star, input.en_grade_submit, #en_eval_grade input[name="evaluation[grade]"], #en_eval_grade label.en_lateral {visibility: hidden; }
+div.en_grade_buttons .fieldWithErrors {display: inline; }
+div.en_grade_average_detail {display: inline; vertical-align: top; }
+div.en_grade_average { padding: 0 0 1rem 0; margin: 0; }
+div.en_quick_grade { margin-left: -2rem; padding: 0; }
+.en_speaker_bio, .en_topic_description { line-height: 2.3rem; }
+.en_speaker_bio p { padding-top: 0; margin-top:0; }
+/* rating styles */
+img.en_rating_on, img.en_rating_off { padding-right: 0.1rem; }
+/* video and slide embeds */
+.embeds { background-color: #eee; padding: 0.5rem 0.5rem 0.5rem 1rem; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+/* for keynote speakers stype page */
+.keynote_listing h3 { color: #222; line-height: 1.2em; }
+.keynote_listing span.affiliation, .keynote_listing span.position { font-size: 1.4rem; }
+.keynote_listing .speaker_container { margin-bottom: 5rem; }
+.keynote_listing .en_session_description { margin-bottom: 1.8rem; }
+.keynote_listing .en_session_title { font-weight: normal; }
+
+
+/* detail page tools */
+h1 { line-height: 3rem; }
+div.en_detail_tools { float: right; padding-bottom: 1rem; width: 11.5rem; }
+div.en_detail_tools img {float: left; }
+div.en_session_psched {float: right; font-size: 1.2rem; text-align: right; }
+div.en_detail_tools div.en_session_psched {float: none; clear: left; text-align: left; }
+div.en_detail_tools div.en_session_psched img {float: left; }
+a.en_psched_add {text-decoration: none; }
+div.en_psched_add_label {float: left; margin-left: 0.5rem; margin-top: 0.3rem; }
+div.en_network_invite { font-size: 1.2rem; margin-bottom: 0.4rem; }
+div.en_network_invite_label {float: left; margin-left: 0.5rem; }
+div.en_network_invite a {text-decoration: none; }
+div.en_session_mini_eval {float: right; font-size: 1.2rem; text-align: right; clear: right; }
+a.en_evaluated:link, a.en_evaluated:visited {color: black; }
+#en_speakerlist div.en_speaker { margin-bottom: 1rem; margin-top: 1rem; clear: right; }
+#en_speakerlist div.en_speaker div.en_session_title {font-weight: normal;  margin-left: 1rem; }
+div.en_speaker_details { margin-bottom: 0.25rem; }
+div.en_speaker_details span.en_speaker_name {font-weight: bold; }
+div.en_user_photo {float: right; margin: 0 0 1rem 1rem; }
+div.en_user_photo img {border: 1px solid black; }
+.session_downloads { background-color: #eee; padding: 1rem; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; font-size:1.5rem; }
+/* Session eval stuff */
+#en_eval_dialog {overflow: auto; padding: 0; } 
+#en_eval_dialog_contents { margin: 1rem; }
+#en_eval_dialog h1 {margin-top: 0; } 
+/* comment styles */ 
+div.en_comment_body {clear: left; padding: 0.4rem; border-bottom: 1px dotted #888; margin-bottom: 1rem; }
+div.en_comment_header { padding: 0.4rem; }
+div.en_comment_from {font-weight: bold; font-size: 1.5rem; }
+div.en_comment_when { margin-top: 0.5rem; font-size: 1.2rem; }
+div.en_new_comment div.en_commenter_avatar {float: left; }
+#comments { margin: 0 2rem; }
+#comments h3 { margin: 0 0 1.2rem 0;  padding: 1.5rem 0 0.5rem 0; border-bottom: 1px dotted #aaa; }
+div.en_commenter_avatar {float: left; padding-right: 1rem;  }
+#new_comment { margin: 4rem 2rem 2rem 0;  padding: 1.5rem 0 0.5rem 0; }
+#new_comment h3 { margin: 0 0 1.2rem 0; padding: 0; }
+input.en_comment_form_submit { margin: 1rem 0 0 3.5rem; }
+#new_comment p { margin-left: 0; }
+#jump_to_comment { font-size: 1.2rem; clear: left; }
+#jump_to_comment img { padding: 0.2rem 0.5rem 0 0; }
+#schedule_detail div.en_grade_block { border:none;padding:10px 0 0 0;float:none;margin:0;width:100%;clear:none; } 
+#en_schedule_detail div.en_session_description {margin-left: 0; }
+/* used to wrap speaker details on a proposal detail page */
+div.en_schedule_session_speaker {margin-bottom: 2rem; /* clear any preceding photo */ clear: right; }
+#en_main .en_schedule_session_speaker h2.fn { font-weight: bold; font-size: 1.9rem; }
+#en_schedule_detail div.en_session {margin: 0; }
+#schedule_detail {margin: 2rem 0; }
+#en_schedule_detail #en_main .en_session h1 {margin: 0 0 0.8rem; padding-top: 2rem; }
+#comments { margin: 0 2rem 0 0; }
+#comments h3 { margin: 0 0 1.2rem; padding: 1.5rem 0 0.5rem; border-bottom: 1px dotted #aaa; }
+div.en_commenter_avatar {float: left; padding-right: 1rem; }
+.en_comment_block {background: none; margin: 4rem 2rem 2rem 0; padding: 0.5rem 0.5rem 0.5rem 0; }
+input.en_comment_form_submit { margin: 1rem 0 0 3.5rem; }
+.user_tools { clear: right; float: right; margin: 2rem 0 0 2rem; padding: 0.5rem 0.5rem 0; }
+#en_grid_dates { margin-top: 0.5rem; margin-bottom: 0.5rem; }
+#en_grid_dates ul {list-style: none; padding-left: 0; margin-left: 0; }
+#en_grid_dates ul li {display: inline; font-size: 1rem; margin-top: 0.4rem; border: 1px solid black; margin-left: 0; padding: 0.4rem; background-color: white; }
+#en_grid_dates ul li.active {background-color: black; }
+#en_grid_dates ul li.active a {color: white; }
+#en_grid_dates a {text-decoration: none; color: black;  padding-bottom: 0.2rem; }
+#schedule_detail .session_time { font-size: 1.2rem; }
+#en_schedule_speaker h4 { margin-top: 0; }
+
+.materials:before { content:  '+ '; }
+.materials { cursor: pointer; }
+.materials.show:before { content : '- '; }
+.en_prerequisites.description { border-bottom: 1px solid #ccc; padding-bottom: 1rem; line-height: 2.5rem; overflow: hidden; }
+.en_prerequisites.description h2 { line-height: 2.5rem; }
+.en_session_recommendations { margin-bottom: 2rem; border-bottom: 1px solid #ccc; }
+
+/* all speakers page */
+#en_speakerlist .en_speaker { padding: 1rem 0; min-height: 12rem; min-width: 28rem; font-size: 1.2rem; display: inline-block; vertical-align: top;}
+#en_speakerlist .en_user_photo {float: none; display: inline-block; padding: 0 1rem 1rem 0; }
+#en_speakerlist .en_speaker_name {font-weight: bold; }
+div#en_speakerlist .en_speaker_details { display: inline-block; vertical-align: top; max-width: 15rem; }
+div#en_speakerlist span.session_type_tag { display: none; }
+#en_speakerlist div.en_session_title {font-size: 1.3rem; }
+div.en_speaker_bio {line-height: 2.3rem; }
+#en_main .en_schedule_session_speaker h2 {font-size: 1.5rem; }
+.company_name a {text-decoration: none; }
+.company_name a:hover {text-decoration: underline; }
+.company_name { font-size: 1.1rem; font-weight: 700; }
+.speaker-list-item .en_session_title { font-weight: normal; }
+/* keynotes page */
+.keynote_listing .en_session {border-bottom: 1px dotted #CCC; margin-bottom: 0; margin-top: 0;  padding: 1rem 0; min-height: 11rem; }
+.keynote_listing .speaker_container img {float: right; margin: 0 1rem; }
+.keynote_listing .speaker_container a {cursor: pointer; }
+#en_main #mid .keynote_listing h3.speaker_name { margin: 0 0 0.5rem; padding: 0; }
+.keynote_listing h3.speaker_name span.position { font-size: 1.4rem; font-style: italic; margin-left: 0.5rem; }
+.keynote_listing .en_session .description {display: block; font-size: 1.3rem; margin: 0.5rem 1rem 1rem 0; }
+.keynote_listing .en_speaker_bio {display: block; margin-right: 9rem; }
+.keynote_listing div.scheduled_info { font-size: 1.3rem; margin: 1rem 0; }
+
+@media only screen and (max-width: 680px) {
+  .user_tools { float: none; margin-left: 0; }
+}

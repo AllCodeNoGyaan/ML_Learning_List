@@ -1,0 +1,19 @@
+http://www.oreilly.com/catalog/errata.csp?isbn=0636920063698
+https://github.com/Hezi-Resheff/Oreilly-OSCON2017-Learning-TensorFlow
+http://shop.oreilly.com/product/0636920063698.do
+
+http://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
+
+MNIST dataset ::
+http://yann.lecun.com/exdb/mnist
+
+--- System
+
+C:\Users\prateek.sri\Documents\GitHub\Oreilly-Learning-TensorFlow
+C:\Users\prateek.sri\Documents\GitHub\Oreilly-OSCON2017-Learning-TensorFlow
+
+
+
+conda create -n ltf python=3.6.4 anaconda
+
+conda install -n yourenvname
